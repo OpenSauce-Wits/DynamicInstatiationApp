@@ -24,7 +24,7 @@ public class AddTest {
     @Test
     public void addAThirdTime(){
         int actual = Add(-70,35);
-        int expected = 35;
+        int expected = -35;
         assertEquals("you can't do negative maths",actual,expected);
     }
 }
