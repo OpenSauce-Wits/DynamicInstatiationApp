@@ -30,7 +30,7 @@ import static androidx.test.rule.ActivityTestRule.*;
 import static org.hamcrest.Matchers.not;
 
 @RunWith(AndroidJUnit4.class)
-public class MainActivityTest {
+public class MainActivityInstrumentedTest {
     @Rule
     public ActivityTestRule<MainActivity> mainActivityActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 

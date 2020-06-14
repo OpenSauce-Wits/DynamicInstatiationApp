@@ -5,7 +5,7 @@ import org.junit.Test;
 import static com.example.dynamic_instantiation_test.MainActivity.Add;
 import static org.junit.Assert.*;
 
-public class AddTest {
+public class MainActivityUnitTest {
 
     @Test
     public void add() {
